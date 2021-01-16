@@ -52,3 +52,21 @@
 		}
 	}
 }
+@media only screen and (max-width: 980px) {
+	#side-navigation {
+		display: none;
+		z-index: 999;
+		box-shadow: 7px 0 20px rgba(0,0,0,0.45);
+		transform-origin: 0% 0%;
+		transform: translate(-150%, 0);
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+		&.mobile-side-nav {
+			display: block;
+		}
+
+		&.side-nav-open {
+			transform: none;
+		}
+	}
+}

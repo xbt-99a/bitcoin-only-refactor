@@ -5,7 +5,6 @@ html, body {
 	font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 a {
-	//color: #ffffff;
 	color: #f2ad4f;
 	border-bottom: 1px solid rgba(255,255,255,0.35);
 
@@ -45,32 +44,7 @@ a {
 	padding: 30px 30px 50px;
 	min-height: 100vh;
 }
-.mobile-sidebar-wrapper {
-	//display: none;
-	position: fixed;
-	top:0;
-	bottom: 0;
-	width: 100%;
-	height:100%;
-	background-color: rgba(0,0,0,0.6);
-}
 @media only screen and (max-width: 980px) {
-	#side-navigation {
-		display: none;
-		z-index: 999;
-		box-shadow: 7px 0 20px rgba(0,0,0,0.45);
-		transform-origin: 0% 0%;
-		transform: translate(-150%, 0);
-		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-		&.mobile-side-nav {
-			display: block;
-		}
-
-		&.side-nav-open {
-			transform: none;
-		}
-	}
 	.sidebar-bg {
 		display: none;
 	}
@@ -79,16 +53,8 @@ a {
 		margin-left: 0;
 		padding-top: 68px;
 	}
-	#mobile-top-navigation {
-		display: flex;
-	}
 }
 @media only screen and (max-width: 550px) {
-	#mobile-top-navigation {
-		&.mobile-side-nav-open .logo {
-			width: 500%;
-		}
-	}
 	.main-content {
 		padding: 68px 20px 50px;
 	}

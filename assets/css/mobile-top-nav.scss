@@ -104,3 +104,15 @@
 	}
 
 }
+@media only screen and (max-width: 980px) {
+	#mobile-top-navigation {
+		display: flex;
+	}
+}
+@media only screen and (max-width: 550px) {
+	#mobile-top-navigation {
+		&.mobile-side-nav-open .logo {
+			width: 500%;
+		}
+	}
+}

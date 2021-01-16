@@ -16,7 +16,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import 'assets/css/side-nav.scss';
 </style>
 

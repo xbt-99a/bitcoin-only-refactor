@@ -17,7 +17,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import 'assets/css/mobile-top-nav.scss';
 </style>
 
